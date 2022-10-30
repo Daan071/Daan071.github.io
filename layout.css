@@ -1,13 +1,21 @@
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #c0f0f33b;
+}
 
-    a:link, a:visited {
-    background-color: #696969;
-    color: rgb(255, 255, 255);
-    padding: 12px;
-    margin: 15px;
-    text-align: center;
-    text-decoration: none;
-    display: list-item;
+
+a:link, a:visited {
+  background-color: #696969;
+  color: rgb(255, 255, 255);
+  padding: 12px;
+  margin: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: list-item;
   }
   
   a:hover, a:active {
