@@ -6,7 +6,7 @@
     padding: 17px 30px;
     text-align: center;
     text-decoration: none;
-    display: block;
+    display: list-item;
   }
   
   a:hover, a:active {
