@@ -3,7 +3,8 @@
     a:link, a:visited {
     background-color: #696969;
     color: rgb(255, 255, 255);
-    padding: 12px 28px;
+    padding: 12px;
+    margin: 15px;
     text-align: center;
     text-decoration: none;
     display: list-item;
