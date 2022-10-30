@@ -1,12 +1,14 @@
 
 ul {
-  list-style-type: string;
-  margin: 14;
-  padding: 12;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
   width: 31px;
   background-color: #c0f0f33b;
 }
-
+   li {
+    list-style-type: string;
+   }
 
 a:link, a:visited {
   background-color: #696969;
