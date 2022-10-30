@@ -6,7 +6,7 @@
     padding: 7px 28px;
     text-align: center;
     text-decoration: none;
-    display: outside;
+    display: box;
   }
   
   a:hover, a:active {
