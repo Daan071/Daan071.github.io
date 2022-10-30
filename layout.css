@@ -1,14 +1,13 @@
 
 ul {
   list-style-type: none;
-  margin: 0px;
-  padding: 0px;
-  width: 31px;
-  background-color: #c0f0f33b;
+  margin: 0;
+  padding: 0;
 }
-   li a{
-    list-style-type: string;
-   }
+
+li {
+  display: inline;
+}
 
 a:link, a:visited {
   background-color: #696969;
