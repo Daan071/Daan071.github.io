@@ -22,7 +22,7 @@
     text-decoration: none;
   }
   
-  li a:hover {
+  li a:hover:not(.active) {
     background-color: #111;
   }
  
@@ -58,7 +58,7 @@
       width: 100%;
     }
   }
-  
+
   .footer {
     background-color: #F1F1F1;
     text-align: center;
