@@ -59,6 +59,12 @@
       width: 100%;
     }
   }
+ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
   .footer {
     background-color: #f1f1f1;
