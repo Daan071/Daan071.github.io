@@ -68,8 +68,8 @@
     background: #f1f1f1;
   }
   .footer p {
-    margin: 0;
-    padding: 0 20px;
+    text-align: center;
+    padding: 20px;
     line-height: 3em;
   }
   
