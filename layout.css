@@ -20,6 +20,7 @@
     text-align: center;
     padding: 27px;
     text-decoration: none;
+    width: 100%;
   }
   
   li a:hover:not(.active) {
@@ -36,7 +37,7 @@
     text-align: center;
     padding: 22px;
     float: none;
- 
+    width: 100%;
   }
   
   .column {
