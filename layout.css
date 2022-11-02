@@ -64,4 +64,8 @@
     background-color: #f1f1f1;
     text-align: center;
     padding: 10px;
+    position: absolute;
+	  width: 100%;
+	  left: 0;
+	  bottom: 0;
   }
