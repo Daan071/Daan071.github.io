@@ -10,17 +10,12 @@
     background-color: rgb(97, 90, 90);
   }
   
-  li {
-    float: left;
-  }
-  
   li a {
     display: block;
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 27px;
     text-decoration: none;
-    width: 100%;
   }
   
   li a:hover:not(.active) {
