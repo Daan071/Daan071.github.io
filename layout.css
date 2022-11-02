@@ -60,14 +60,14 @@
     }
   }
 
-  #footer {
+  .footer {
     position: absolute;
     width: 100%;
     left: 0;
     bottom: 0;
     background: #f1f1f1;
   }
-  #footer p {
+  .footer p {
     margin: 0;
     padding: 0 20px;
     line-height: 3em;
