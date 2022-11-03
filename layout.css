@@ -43,15 +43,6 @@
     text-size-adjust: 120%
   }
 
-  .column-right {
-    width: fit-content;
-    bottom: 0;
-    right: 0;
-    padding: 30;
-    height: fit-content;
-  }
-
-
   .footer {
     float: left;
   }
