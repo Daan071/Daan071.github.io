@@ -40,12 +40,12 @@
     background-color: #F1F1F1;
     text-align: center;
     padding: 8px;
-    font-size: 2em;
+    font-size:larger;
     color: #5ed3a4;
   }
    
   .textsize {
-    font-size:large ;
+    font-size: larger ;
   }
 
   .afbeelding {
