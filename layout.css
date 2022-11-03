@@ -44,8 +44,8 @@
     color: #5ed3a4;
   }
    
-  .frontsize {
-    font-size: 170%;
+  .textsize {
+    text-size-adjust: 170%;
   }
 
   .afbeelding {
