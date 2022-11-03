@@ -36,7 +36,13 @@
     text-align: center;
     padding: 20px;
   }
-  
+  .paragraaf {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
+  }
+
+
   .column {
     float: left;
   }
@@ -73,6 +79,6 @@
     text-align: center;
     padding: 24px;
     line-height: 1.5em;
-    font-size: 3cm;
+    text-size-adjust: 160%;
   }
   
