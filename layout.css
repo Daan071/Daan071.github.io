@@ -57,6 +57,9 @@
       width: 100%;
     }
   }
+  .footer {
+    float: left;
+  }
 
   .footer {
     position: absolute;
