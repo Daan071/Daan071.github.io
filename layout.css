@@ -1,5 +1,5 @@
  #body1 {
-    background-color: rgb(255, 255, 255);
+   background-color: rgb(255, 255, 255);
   }
 
   ul {
@@ -42,6 +42,17 @@
     padding: 8px;
     text-size-adjust: 120%;
     color: #5ed3a4;
+  }
+   
+  .frontsize {
+    font-size: 130%;
+  }
+
+  .afbeelding {
+    position: absolute;
+    right: 2;
+    bottom: 0;
+    padding: 29;
   }
 
   .footer {
