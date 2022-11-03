@@ -40,12 +40,12 @@
     background-color: #F1F1F1;
     text-align: center;
     padding: 8px;
-    text-size-adjust: 120%;
+    font-size: larger;
     color: #5ed3a4;
   }
    
   .textsize {
-    text-size-adjust: 140%;
+    font-size:large ;
   }
 
   .afbeelding {
@@ -70,7 +70,7 @@
     text-align: center;
     padding: 22px;
     line-height: 1.5em;
-    text-size-adjust: 160%;
+    font-size:large;
   }
 
   
