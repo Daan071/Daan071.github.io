@@ -43,12 +43,6 @@
     text-size-adjust: 120%
   }
 
-  .right {
-    margin-left: 800px;
-  }
-  
-  .right { background-color: rgb(255, 255, 255);}
-
   .footer {
     float: left;
   }
