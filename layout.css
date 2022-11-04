@@ -1,6 +1,8 @@
- #body1 {
-  background-image:url();
-  }
+body {
+  background-color: rgb(255, 255, 255);
+  font-size: large;
+  font-family: monospace;
+}
 
   ul {
     list-style-type: none;
@@ -74,7 +76,7 @@
   }
   #textbreedte {
     width: 56%;
-    font-size: 15px;
+    font-size:large;
   }
 
   #paragraaf {
