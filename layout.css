@@ -2,7 +2,7 @@ body {
   background-color: rgb(255, 255, 255);
   font-size: large;
   font-family: monospace;
-}
+} /*dit zort voor een algemene body */
 
   ul {
     list-style-type: none;
@@ -10,11 +10,11 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: rgb(97, 90, 90);
-  }
+  } /*dit zort voor een menu */
   
   li {
     float: left;
-  }
+  } /*ruimte open ruimte aan de linkerkant van het menu */
   
   li a {
     display: block;
@@ -22,33 +22,34 @@ body {
     text-align: center;
     padding: 27px;
     text-decoration: none;
-  }
+  } /*text verandering in het menu */
   
   li a:hover:not(.active) {
     background-color: #111;
-  }
+  } /*muis interactie in het menu zorgt voor een kleur verandering */
  
   .active {
     background-color: #5ed3a4;
     color: #111;
-  }
+  } /*bij een active pagine zullen de kleuren in het menu veranderen */
 
   .header {
     background-color: #F1F1F1;
     text-align: center;
     padding: 20px;
-  }
+  } /*dit zort voor de algemene header */
+
   .paragraaf {
     background-color: #F1F1F1;
     text-align: center;
     padding: 8px;
     font-size: 24px;
     color: #5ed3a4;
-  }
+  } /*dit zorgt voor kopjes */
    
   .footer {
     float: left;
-  }
+  } /*dit zorgt ervoor dat de footer links ruimte openlaat */
 
   .footer {
     position: absolute;
@@ -56,14 +57,15 @@ body {
     left: 1;
     bottom: 0;
     background: #f1f1f1;
-  }
+  } /*footer positie aanpassingen */
+
   .footer p {
     text-align: center;
     padding: 22px;
     line-height: 1.5em;
     font-size:large;
-  }
+  } /*footer text aanpassingen */
 
   #textbreedte {
     width: 56%;
-  }
+  } /*hiermee kan je een textbreedte toevoegen */
