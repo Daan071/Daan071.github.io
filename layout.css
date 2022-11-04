@@ -65,8 +65,8 @@ body {
   }
 
   .afbeelding {
-    bottom: 0;
-    position: absolute;
+    bottom: 2;
+    float: left;
   }
 
   #textbreedte {
