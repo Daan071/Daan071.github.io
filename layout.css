@@ -46,13 +46,6 @@ body {
     color: #5ed3a4;
   }
    
-  .afbeelding {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    padding: 29;
-  }
-
   .footer {
     float: left;
   }
