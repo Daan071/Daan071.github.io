@@ -78,11 +78,11 @@ body {
 
   #textrechts {
     float: right;
-    width: 54%;
+    width: 60%;
   }
   
   #paragraafrechts {
-    width: 54%;
+    width: 60%;
     background-color: #F1F1F1;
     text-align: center;
     padding: 8px;
