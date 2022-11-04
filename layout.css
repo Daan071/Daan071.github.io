@@ -72,13 +72,13 @@
     line-height: 1.5em;
     font-size:large;
   }
-  #compressie {
-    width: 55%;
+  #textbreedte {
+    width: 52%;
     font-size: 15px;
   }
 
   #paragraaf {
-    width: 55%;
+    width: 52%;
     background-color: #F1F1F1;
     text-align: center;
     padding: 8px;
