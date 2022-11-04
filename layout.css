@@ -78,6 +78,7 @@ body {
 
   #textrechts {
     float: right;
+    width: 54%;
   }
   
   #paragraafrechts {
