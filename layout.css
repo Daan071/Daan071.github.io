@@ -1,5 +1,5 @@
  #body1 {
-  background-image:url(images.jpeg);
+  background-image:url();
   }
 
   ul {
@@ -40,12 +40,12 @@
     background-color: #F1F1F1;
     text-align: center;
     padding: 8px;
-    font-size: 20px;
+    font-size: 28px;
     color: #5ed3a4;
   }
    
   .textsize {
-    font-size: 28px;
+    font-size: 15px;
   }
 
   .afbeelding {
