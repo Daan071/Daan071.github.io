@@ -7,8 +7,8 @@ body {
   ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
-    overflow: hidden;
+    padding: 0; 
+    overflow: hidden; /*geeft aan wat er moet gebeuren bij overlapping */
     background-color: rgb(97, 90, 90);
   } /*dit zort voor een menu */
   
@@ -17,10 +17,10 @@ body {
   } /*ruimte open ruimte aan de linkerkant van het menu */
   
   li a {
-    display: block;
+    display: block; /*bepaalt de vorm */
     color: rgb(255, 255, 255);
     text-align: center;
-    padding: 27px;
+    padding: 27px; /*inhoud van vorm */
     text-decoration: none;
   } /*text verandering in het menu */
   
@@ -54,15 +54,14 @@ body {
   .footer {
     position: absolute;
     width: 100%;
-    left: 1;
+    left: 1; /*ruimt tot de linkerkant */
     bottom: 0;
     background: #f1f1f1;
   } /*footer positie aanpassingen */
 
   .footer p {
-    text-align: center;
+    text-align: center; /*welke plaats de tekst zal aannemen in een gebied */
     padding: 22px;
-    line-height: 1.5em;
     font-size:large;
   } /*footer text aanpassingen */
 
