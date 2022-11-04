@@ -75,18 +75,3 @@ body {
     font-size: 24px;
     color: #5ed3a4;
   }
-
-  #textrechts {
-    float: right;
-    width: 60%;
-  }
-  
-  #paragraafrechts {
-    width: 60%;
-    background-color: #F1F1F1;
-    text-align: center;
-    padding: 8px;
-    font-size: 24px;
-    color: #5ed3a4;
-    float: right;
-  }
