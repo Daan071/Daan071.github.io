@@ -63,6 +63,11 @@ body {
     line-height: 1.5em;
     font-size:large;
   }
+
+  .afbeelding {
+    bottom: 0;
+  }
+
   #textbreedte {
     width: 56%;
   }
