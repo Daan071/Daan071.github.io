@@ -65,6 +65,7 @@ body {
   }
   #textbreedte {
     width: 56%;
+    nav-up: auto;
   }
 
   #paragraaf {
