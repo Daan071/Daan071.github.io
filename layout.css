@@ -73,12 +73,16 @@
     font-size:large;
   }
   #compressie {
-    width: 60%;
+    width: 55%;
     font-size: 15px;
   }
 
   #paragraaf {
-    width: 56%;
+    width: 55%;
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 8px;
     font-size: 24px;
+    color: #5ed3a4;
   }
   
