@@ -55,7 +55,6 @@ body {
     position: absolute;
     width: 100%;
     left: 1; /*ruimt tot de linkerkant */
-    bottom: 0;
     background: #f1f1f1;
   } /*footer positie aanpassingen */
 
