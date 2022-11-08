@@ -48,10 +48,7 @@ body {
   } /*dit zorgt voor kopjes */
    
   .footer {
-    float: left;
-  } /*dit zorgt ervoor dat de footer links ruimte openlaat */
-
-  .footer {
+    float: left; /*dit zorgt ervoor dat de footer links ruimte openlaat */
     position: absolute;
     width: 100%;
     background: #f1f1f1;
