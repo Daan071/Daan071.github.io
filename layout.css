@@ -52,14 +52,10 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-  } 
-
-  .footer p {
     text-align: center; /*dit geeft aan waar de text zal komen te staan, dus in het midden*/
     padding: 22px; /*dit zorgt voor de hoogte van de footer*/
     font-size:large; /*dit zorgt voor een tekstgrote large*/
-  } /*footer text aanpassingen */
-
+  } 
    
   #textbreedte {
     width: 56%; /*hiermee kan je een textbreedte toevoegen*/
