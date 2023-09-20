@@ -48,10 +48,10 @@ body {
   } /*dit zorgt voor kopjes*/
    
   .footer {
-    float: left; /*dit zorgt ervoor dat de footer links ruimte openlaat*/
-    position: absolute; /*dit zorgt ervoor dat de positie van de tekst binnen de footer absoluut is met het scherm*/
-    width: 100%; /*dit zorgt ervoor dat de footer het hele scherm inneemt*/
-    background: #f1f1f1; /*achtergrond kleur voor de footer*/
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
   } 
 
   .footer p {
@@ -60,6 +60,7 @@ body {
     font-size:large; /*dit zorgt voor een tekstgrote large*/
   } /*footer text aanpassingen */
 
+   
   #textbreedte {
     width: 56%; /*hiermee kan je een textbreedte toevoegen*/
   }
