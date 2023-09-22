@@ -67,8 +67,7 @@ body {
 .dropbtn {
   background-color: #04AA6D;
   color: white;
-  padding: 16px;
-  font-size: 16px;
+  padding: 27px; /*dit geeft aan hoe groot het blokje waarin zich het menu bevindt is*/
   border: none;
 }
 
