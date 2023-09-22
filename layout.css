@@ -56,6 +56,7 @@ body {
     padding: 16px; /*dit zorgt voor de hoogte van de footer*/
     font-size: medium; /*dit zorgt voor een tekstgrote large*/
     background-color: #F1F1F1; /*achtergrond kleur voor de footer*/
+    margin-top: -10px;
   } 
 
    
