@@ -55,7 +55,7 @@ body {
     bottom: 0;
     width: 100%;
     text-align: center; /*dit geeft aan waar de text zal komen te staan, dus in het midden*/
-    padding: 16px; /*dit zorgt voor de hoogte van de footer*/
+    padding: 14px; /*dit zorgt voor de hoogte van de footer*/
     font-size: medium; /*dit zorgt voor een tekstgrote large*/
     background-color: #F1F1F1; /*achtergrond kleur voor de footer*/
   } 
