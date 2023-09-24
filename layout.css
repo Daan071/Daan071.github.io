@@ -64,7 +64,7 @@ body {
 
 /* Dropdown Button */
 .dropbtn {
-  background-color: #04AA6D;
+  background-color: rgb(97, 90, 90);
   color: white;
   padding: 27px; /*dit geeft aan hoe groot het blokje waarin zich het menu bevindt is*/
   border: none;
@@ -92,6 +92,11 @@ body {
   padding: 27px;
   text-decoration: none;
   display: block;
+}
+
+.dropdown-content a:hover {              
+  background-color:rgb(97, 90, 90);
+  color: whitesmoke;
 }
 
 .dropdown:hover .dropdown-content {
