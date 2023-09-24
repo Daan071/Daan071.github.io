@@ -104,4 +104,5 @@ body {
 
 .dropdown:hover .dropdown-content {
   display: block;
+  background-color: #cfcfcf; /*muis interactie in het menu zorgt voor een kleur verandering*/
 }
