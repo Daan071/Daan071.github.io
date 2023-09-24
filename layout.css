@@ -45,6 +45,7 @@ body {
     padding: 8px; /*dit zorgt voor de hoogte van een paragraaf*/
     font-size: 24px; /*dit element heeft invloed op de tekstgrote in een paragraaf*/
     color: #5ed3a4; /*tekstkleur in de paragraaf*/
+    z-index: 1;
   } /*dit zorgt voor kopjes*/
    
   .footer {
@@ -84,7 +85,7 @@ body {
   position: absolute;
   background-color: #f1f1f1;
   min-width: 100%;
-  z-index: 1;
+  z-index: 2;
 }
 
 /* Links inside the dropdown */
@@ -102,4 +103,5 @@ body {
 
 .dropdown:hover .dropdown-content {
   display: block;
+  background-color: #111; /*muis interactie in het menu zorgt voor een kleur verandering*/
 }
