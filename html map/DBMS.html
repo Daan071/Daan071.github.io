@@ -1,0 +1,107 @@
+
+<!DOCTYPE html> <!--dit is de bestandsformaten uitleg van mijn site-->
+<html> <!--html element-->
+    <head>
+        <title>informatica</title> <!--dit is de titel van mijn site-->
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="/layout.css"> <!--dit is de link naar mijn layout-->
+        <meta name="vieuwport" content="width=device-width, initial-scale=1.0"> <!--Hiermee maak ik de site bruikbaar op mobiel-->
+    </head>
+    <body>
+        
+        <div class="header"> <!--dit linkt de header uit mijn css naar mijn html-->
+            <h1>Uitleg DBMS</h1>
+        </div>
+
+        <ul> <!--dit zorgt voor een unordered list-->
+            <li><a href="/index.html">Homepage</a></li> <!--dit is een link naar de homepage-->
+            <li><a href="/html map/informatie.html">Algemene Informatie</a></li> <!--dit is een link naar de algemene informatie-->
+            <li><a href="/html map/formaten.html">Bestandsformaten</a></li> <!--dit is een link naar de bestandsformaten met active status-->
+            <li><a href="/html map/kleurmodellen.html">Kleurmodellen</a></li> <!--dit is een link naar de kleurmodellen-->
+            <li><a href="/html map/binairstelsel.html">Binairstelsel</a></li> <!--dit is een link naar het binairstelsel-->
+            <li><a href="/html map/compressie.html">Compressie</a></li> <!--dit is een link naar de compressie-->
+
+            <div class="dropdown">
+                <button class="dropbtn">Lagenmodel</button>
+                 <div class="dropdown-content">
+                     <li><a class="active" href="/html map/3-lagenmodel.html">3-lagenmodel</a></li>
+                     <li><a href="/html map/fysiekelaag.html">Fysieke laag</a></li>
+                     <li><a href="/html map/logischelaag.html">Logische laag</a></li>
+                     <li><a href="/html map/toepassingenlaag.html">Toepassingslaag</a></li>
+                 </div>
+             </div> 
+
+        </ul>
+
+        <br> <!--dit zort voor een open regel tussen de tekst en de footer-->
+    </br>
+  
+    <p> <!--dit geeft een text aan-->
+        Een DBMS, of Database Management System, is een softwaretoepassing die wordt gebruikt om databases te beheren en te organiseren. 
+        Het heeft als hoofddoel om gegevens op een gestructureerde en efficiënte manier op te slaan, op te vragen, bij te werken en te beheren. 
+        Hier zijn enkele belangrijke aspecten van een DBMS:
+    </p>
+
+    <h2 class="paragraaf">Gegevensbeheer</h2> <!--dit linkt paragraaf uit mijn css-->           
+    <p> <!--dit geeft een text aan--> 
+        Het DBMS fungeert als een gegevensbeheerder en organiseert informatie in tabellen, rijen en kolommen,
+         waardoor gegevens efficiënt kunnen worden opgeslagen en opgevraagd.
+    </p>
+
+    <h2 class="paragraaf">Gegevensintegriteit</h2> <!--dit linkt paragraaf uit mijn css-->           
+    <p> <!--dit geeft een text aan--> 
+        Het zorgt ervoor dat gegevens consistent en nauwkeurig blijven door middel van gegevensvalidatie en -beveiliging. 
+        Het voorkomt ongeldige gegevensinvoer en beschermt gegevens tegen ongeoorloofde toegang.
+    </p>
+
+    <h2 class="paragraaf">Gegevensbeveiliging</h2> <!--dit linkt paragraaf uit mijn css-->           
+    <p> <!--dit geeft een text aan--> 
+        Het biedt beveiligingsmaatregelen om de vertrouwelijkheid, integriteit en beschikbaarheid van gegevens te waarborgen. 
+        Dit omvat gebruikersverificatie, autorisatie en versleuteling van gegevens.
+    </p>
+
+    <h2 class="paragraaf">Concurrentiebeheer</h2> <!--dit linkt paragraaf uit mijn css-->           
+    <p> <!--dit geeft een text aan--> 
+        DBMS-handvatten meerdere gebruikers die tegelijkertijd toegang proberen te krijgen tot dezelfde gegevens en voorkomt dat gegevens verloren gaan of inconsistent worden.
+    </p>
+
+    <h2 class="paragraaf">Query Language</h2> <!--dit linkt paragraaf uit mijn css-->           
+    <p> <!--dit geeft een text aan--> 
+        Het biedt een speciale taal, zoals SQL (Structured Query Language), 
+        waarmee gebruikers complexe zoekopdrachten kunnen uitvoeren en gegevens kunnen ophalen uit de database.
+    </p>
+
+    <h2 class="paragraaf">Back-up en herstel</h2> <!--dit linkt paragraaf uit mijn css-->           
+    <p> <!--dit geeft een text aan--> 
+        Het maakt back-ups van gegevens en biedt herstelmogelijkheden om gegevens te herstellen in het geval van onverwachte gebeurtenissen, 
+        zoals hardwarestoringen of menselijke fouten.
+    </p>
+
+    <h2 class="paragraaf">Schaalbaarheid</h2> <!--dit linkt paragraaf uit mijn css-->           
+    <p> <!--dit geeft een text aan--> 
+        DBMS-systemen kunnen worden geschaald om grotere hoeveelheden gegevens en meer gebruikers te ondersteunen naarmate de behoeften van een organisatie groeien.
+    </p>
+
+    <h2 class="paragraaf">Indexering en optimalisatie</h2> <!--dit linkt paragraaf uit mijn css-->           
+    <p> <!--dit geeft een text aan--> 
+        Het maakt gebruik van indexering en query-optimalisatie om zoekopdrachten sneller uit te voeren en de prestaties van de database te verbeteren.
+    </p>
+
+    <br> <!--dit zort voor een open regel tussen de tekst en de footer-->
+    </br>
+
+    <p> <!--dit geeft een text aan--> 
+        Voorbeelden van populaire DBMS-systemen zijn MySQL, Oracle Database, Microsoft SQL Server, PostgreSQL en MongoDB. 
+        DBMS-systemen zijn essentieel in moderne informatiesystemen en worden gebruikt in verschillende sectoren, waaronder bedrijfsleven, gezondheidszorg, onderwijs en meer, om gegevens op te slaan en te beheren voor efficiënte en georganiseerde informatieverwerking.
+    </p>
+
+      
+      <br> <!--dit zort voor een open regel tussen de tekst en de footer-->
+      </br>
+    
+      <div class="footer"> <!--dit linkt de footer uit mijn css naar mijn html-->
+        <h2><p>Gemaakt door Daan Wijers</p></h2>
+      </div>
+       
+  </body>
+</html>
