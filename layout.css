@@ -67,7 +67,7 @@ body {
 .dropbtn {
   background-color: rgb(97, 90, 90);
   color: white;
-  padding: 15px; /* Aangepaste paddingwaarde */
+  padding: 27px; /* Aangepaste paddingwaarde */
   border: none;
   transition: background-color 0.3s; /* Voeg overgangseffect toe */
 }
@@ -95,7 +95,7 @@ body {
 /* Links inside the dropdown */
 .dropdown-content a {
   color: black;
-  padding: 10px; /* Aangepaste paddingwaarde */
+  padding: 27px; /* Aangepaste paddingwaarde */
   text-decoration: none;
   display: block;
   font-size: large; /*dit zorgt voor een tekstgrote large*/
