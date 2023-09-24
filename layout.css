@@ -68,6 +68,8 @@ body {
   color: white;
   padding: 27px; /*dit geeft aan hoe groot het blokje waarin zich het menu bevindt is*/
   border: none;
+  font-size: large; /*dit zorgt voor een tekstgrote large*/
+  font-family: monospace; /*dit zorgt voor een monospace lettertype*/
 }
 
 /* The container <div> - needed to position the dropdown content */
