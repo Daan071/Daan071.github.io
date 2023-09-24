@@ -1,6 +1,6 @@
 
-<!DOCTYPE html> <!--dit is de binailstelsel uitleg van mijn site-->
-<html> <!--dit is het html-element-->
+<!DOCTYPE html> <!--dit is de bestandsformaten uitleg van mijn site-->
+<html> <!--html element-->
     <head>
         <title>3-lagenmodel</title> <!--dit is de titel van mijn site-->
         <meta charset="utf-8">
@@ -8,48 +8,39 @@
         <meta name="vieuwport" content="width=device-width, initial-scale=1.0"> <!--Hiermee maak ik de site bruikbaar op mobiel-->
     </head>
     <body>
-
+        
         <div class="header"> <!--dit linkt de header uit mijn css naar mijn html-->
-            <h1>Uitleg binairstelsel</h1>
+            <h1>Uitleg TToepassingslaag</h1>
         </div>
 
-         <ul> <!--dit zorgt voor een unordered list-->
-              <li><a href="/index.html">Homepage</a></li> <!--dit is een link naar de homepage-->
-              <li><a href="/html map/informatie.html">Algemene Informatie</a></li> <!--dit is een link naar de algemene informatie-->
-              <li><a href="/html map/formaten.html">Bestandsformaten</a></li> <!--dit is een link naar de bestandsformaten-->
-              <li><a href="/html map/kleurmodellen.html">Kleurmodellen</a></li> <!--dit is een link naar de kleurmodellen-->
-              <li><a href="/html map/binairstelsel.html">Binairstelsel</a></li> <!-- dit is een link naar het binairstelsel met active status-->
-              <li><a href="/html map/compressie.html">Compressie</a></li> <!--dit is een link naar de compressie-->
-              <li><a class="active" href="/html map/3-lagenmodel.html">3-lagenmodel</a></li> <!--dit is een link naar het 3-lagenmodel-->
+        <ul> <!--dit zorgt voor een unordered list-->
+            <li><a href="/index.html">Homepage</a></li> <!--dit is een link naar de homepage-->
+            <li><a href="/html map/informatie.html">Algemene Informatie</a></li> <!--dit is een link naar de algemene informatie-->
+            <li><a class="active" href="/html map/formaten.html">Bestandsformaten</a></li> <!--dit is een link naar de bestandsformaten met active status-->
+            <li><a href="/html map/kleurmodellen.html">Kleurmodellen</a></li> <!--dit is een link naar de kleurmodellen-->
+            <li><a href="/html map/binairstelsel.html">Binairstelsel</a></li> <!--dit is een link naar het binairstelsel-->
+            <li><a href="/html map/compressie.html">Compressie</a></li> <!--dit is een link naar de compressie-->
+            <li><a href="/html map/3-lagenmodel.html">3-lagenmodel</a></li> <!--dit is een link naar het 3-lagenmodel-->
+
+            <div class="dropdown">
+                <button class="dropbtn">Lagenmodel
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                 <div class="dropdown-content">
+                     <li><a href="Html/fysiekelaag.html">Fysieke laag</a></li>
+                     <li><a href="Html/logischelaag.html">Logische laag</a></li>
+                     <li><a href="Html/toepassingslaag.html">Toepassingslaag</a></li>
+                 </div>
+             </div> 
+
         </ul>
-
-        <div class="dropdown">
-            <button class="dropbtn">Dropdown</button>
-            <div class="dropdown-content">
-              <a href="formaten.html">Link 1</a>
-              <a href="compressie.html">Link 2</a>
-              <a href="informatie.html">Link 3</a>
-            </div>
-          </div>
-     
-     <h2 class="paragraaf" style="width: 60%;">Binairgetallenstelsel</h2> <!--dit linkt paragraaf uit mijn css-->
-     <p id="textbreedte"> <!--dit linkt textbreedte van de css-->
-        Als je in de wiskunde met getallen werkt maak je gebruik van het tientallig getallenstelsel. Die bestaan uit de cijfers tussen 0 en 9, je kunt er getallen van maken als 42099. Naast dit getallenstelsel wordt er ook gebruikgemaakt van een binairgetallenstelsel. 
-        Binair staat voor tweedelig. Het getallenstelsel bestaat dan ook alleen maar uit twee getallen: 0 en 1. Met deze twee getallen in een bepaalde volgorde kun je hele cijfers maken. Het vormt een code die constant in computers gebruikt wordt. 
-        De cijfers 0 en 1 worden bits genoemd, de code van 01001110 bestaat uit 8 bits. Om deze code zelf te begrijpen is het handig om de gelinkte site te bekijken en vervolgens binary bonanza. Die rij van 8 bits wordt vaak gebruikt in computers en wordt een byte genoemd; specifiek 8 bits vormen een byte. 
-        Je hebt vast wel is van de term gigabyte (gb) gehoord. Dat zijn 1.000.000.000 bytes. Zo kun je dus bedenken hoeveel bits er wel niet in zitten.
-    </p>
-
-     <p><i> Site met extra uitleg over het binairstelsel als je klikt op de onderstaande afbeelding</i></p> <!--text met italic effect-->   
-        <a href="https://dutchplottr.nl/binaire_getallen/"> <!--website gelinkt-->
-        <img src="/afbeeldingen map/binairstelsel.webp" alt="binairstelsel" width="45%" height=350"></a> <!--afbeelding met link element-->
-
-        <br> <!--dit zort voor een open regel tussen de tekst en de footer-->
-        </br>
-
-        <div class="footer"> <!--dit linkt de footer uit mijn css naar mijn html-->
-            <h2><p>Gemaakt door Daan Wijers</p></h2>
-        </div>
-           
-    </body>
+        
+      <br> <!--dit zort voor een open regel tussen de tekst en de footer-->
+      </br>
+    
+      <div class="footer"> <!--dit linkt de footer uit mijn css naar mijn html-->
+        <h2><p>Gemaakt door Daan Wijers</p></h2>
+      </div>
+       
+  </body>
 </html>
