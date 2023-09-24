@@ -2,6 +2,7 @@ body {
   background-color: rgb(255, 255, 255); /*dit zorgt voor de algmene achtergrondkleur van mijn website*/
   font-size: large; /*dit zorgt voor een tekstgrote large*/
   font-family: monospace; /*dit zorgt voor een monospace lettertype*/
+  z-index: 1;
 } /*dit zort voor een algemene body met lettertype, lettergrootte en achtegrondkleur*/
 
   ul {
@@ -70,6 +71,8 @@ body {
   padding: 27px; /* Aangepaste paddingwaarde */
   border: none;
   transition: background-color 0.3s; /* Voeg overgangseffect toe */
+  font-size: large; /*dit zorgt voor een tekstgrote large*/
+  font-family: monospace; /*dit zorgt voor een monospace lettertype*/
 }
 
 .dropbtn:hover {
@@ -100,8 +103,6 @@ body {
   padding: 27px; /* Aangepaste paddingwaarde */
   text-decoration: none;
   display: block;
-  font-size: large; /*dit zorgt voor een tekstgrote large*/
-  font-family: monospace; /*dit zorgt voor een monospace lettertype*/
 }
 
 .dropdown-content a:hover {
