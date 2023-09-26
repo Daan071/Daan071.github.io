@@ -81,7 +81,7 @@ body {
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-  display: list-item;
+  display: none;
   position: relative;
   background-color: #f1f1f1;
   min-width: 160px;
