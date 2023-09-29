@@ -70,6 +70,7 @@ body {
   padding: 27px; /* Aangepaste paddingwaarde */
   border: none;
   transition: background-color 0.3s; /* Voeg overgangseffect toe */
+  margin: 0;
   font-size: large; /*dit zorgt voor een tekstgrote large*/
   font-family: monospace; /*dit zorgt voor een monospace lettertype*/
 }
@@ -94,6 +95,7 @@ body {
 
 /* Links inside the dropdown */
 .dropdown-content a {
+  float: none;
   color: black;
   padding: 27px; /* Aangepaste paddingwaarde */
   text-decoration: none;
