@@ -88,8 +88,6 @@ body {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  font-size: large; /*dit zorgt voor een tekstgrote large*/
-  font-family: monospace; /*dit zorgt voor een monospace lettertype*/
 }
 
 /* Links inside the dropdown */
