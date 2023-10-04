@@ -94,7 +94,6 @@ body {
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  float: none;
   color: black;
   padding: 27px; /* Aangepaste paddingwaarde */
   text-decoration: none;
