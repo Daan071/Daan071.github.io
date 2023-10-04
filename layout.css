@@ -10,7 +10,7 @@ body {
     margin: 0; /*dit zorgt ervoor dat de afstand van het menu op de header 0 is*/
     padding: 0; /*dit zorgt ervoor dat er geen ruimte tussen het eerste blokje van het menu en de horizontal bar zit aan de linkerkant*/
     overflow: hidden; /*geeft aan wat er moet gebeuren bij overlapping*/
-    background-color: rgb(97, 90, 90); /*achtergrond kleur voor de blokjes in de horizontal bar*/
+    background-color: rgb(212, 233, 208); /*achtergrond kleur voor de blokjes in de horizontal bar*/
   } /*dit zort voor een menu*/
  
   li {
