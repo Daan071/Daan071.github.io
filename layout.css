@@ -2,6 +2,7 @@ body {
   background-color: rgb(255, 255, 255); /*dit zorgt voor de algmene achtergrondkleur van mijn website*/
   font-size: large; /*dit zorgt voor een tekstgrote large*/
   font-family: monospace; /*dit zorgt voor een monospace lettertype*/
+  z-index: 1;
 } /*dit zort voor een algemene body met lettertype, lettergrootte en achtegrondkleur*/
 
   ul {
@@ -10,6 +11,7 @@ body {
     padding: 0; /*dit zorgt ervoor dat er geen ruimte tussen het eerste blokje van het menu en de horizontal bar zit aan de linkerkant*/
     overflow: hidden; /*geeft aan wat er moet gebeuren bij overlapping*/
     background-color: rgb(97, 90, 90); /*achtergrond kleur voor de blokjes in de horizontal bar*/
+    z-index: 1;
   } /*dit zort voor een menu*/
   
   li {
@@ -22,6 +24,7 @@ body {
     text-align: center; /*dit geeft aan waar de text zal komen te staan, dus in het midden*/
     padding: 27px; /*dit geeft aan hoe groot het blokje waarin zich het menu bevindt is*/
     text-decoration: none; /*dit zorgt ervoor dat er bijvoorbeeld geen lijnen onder de tekst in het menu verschijnen*/
+    z-index: 1;
   } /*deze css heeft invloed op horizontal bar*/
   
   li a:hover:not(.active) {
@@ -45,6 +48,7 @@ body {
     padding: 8px; /*dit zorgt voor de hoogte van een paragraaf*/
     font-size: 24px; /*dit element heeft invloed op de tekstgrote in een paragraaf*/
     color: #5ed3a4; /*tekstkleur in de paragraaf*/
+    z-index: 1;
   } /*dit zorgt voor kopjes*/
    
   .footer {
@@ -95,7 +99,7 @@ body {
 /* Links inside the dropdown */
 .dropdown-content a {
   color: black;
-  padding: 27px; /* Aangepaste paddingwaarde */
+  padding: 25px; /* Aangepaste paddingwaarde */
   text-decoration: none;
   display: block;
 }
