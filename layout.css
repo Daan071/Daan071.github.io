@@ -1,119 +1,121 @@
-/* algemene content van een site in de vorm van een body*/
-body{
-  background-color: lightskyblue; /* achtergrond kleur in de body*/ 
-  font-family: "Times New Roman", Times, serif; /* lettertype in de body*/
-  font-size: large; /* lettergrootte in de body*/
-  color: whitesmoke; /* tekstkleur in de body*/
-}
+body {
+  background-color: rgb(255, 255, 255); /*dit zorgt voor de algmene achtergrondkleur van mijn website*/
+  font-size: large; /*dit zorgt voor een tekstgrote large*/
+  font-family: monospace; /*dit zorgt voor een monospace lettertype*/
+} /*dit zort voor een algemene body met lettertype, lettergrootte en achtegrondkleur*/
 
-/* hiermee maak je een menu*/
-ul {
-  list-style-type: none;
-  overflow: hidden; /* Als de tekst te groot is in de specifieke gebied waarin het zich bevindt zorgt de overflow er voor wat ermee gaat gebeuren.*/
-  background-color: lightblue; /* achtergrondkleur van menu */
-}
 
-/* lijst item */
-li {
-  float: left; /* positie van iets en in dit geval is het links */
-}
-
-/* Styling van het menu*/
-li a {
-  display: block; /* display zorgt voor de weergave van een element*/
-  color: white; /* tekst kleur van menu*/
-  text-align: center; /* positie van tekst*/
-  padding: 25px; /* ruimte rondom de inhoud van een element*/
-  text-decoration: none; /* tekst decoratie*/
-}
-
-/* pagina in menu waar je niet op bent*/
-li a:hover:not(.active) {
-  background-color: #111; /* achtergrondkleur */ 
-}
-
-/* pagina in menu waar je op bent*/
-.active { 
-  background-color: lightsteelblue; /* achtergrondkleur */ 
-}
-
-/* lettertype in paragrafen */
-p {
-  font-family: "Lucida Console", "Courier New", monospace; /* lettertype*/
-}
-
-/* header*/
-.header {
-  background-color: whitesmoke; /* achtergrond kleur van header*/
-  text-align: center; /* positie van tekst*/
-  padding: 25px; /* ruimte rondom de inhoud van een element*/
-  color: lightskyblue; /* tekst kleur van header*/
-}
-
-/* footer met relatieve positie*/
-.footer { 
-  background-color: whitesmoke; /* achtergrond kleur van footer*/
-  padding: 12px; /* ruimte rondom de inhoud van een element*/ 
-  text-align: center; /* positie van tekst*/
-  color: lightskyblue; /* tekst kleur van footer*/
-  position: relative; /* positie van footer*/ 
-  width: 100%; /* breedte van footer*/
-  left: 1; /* ruimte naar de linkerkant*/
-}
-
-/* paragraaf met breedte van 100%*/
-.paragraaf {
-  padding: 8px; /* ruimte rondom de inhoud van een element*/  
-  color: lightskyblue; /* tekst kleur van paragraaf*/
-  background-color: whitesmoke; /* achtergrondkleur van paragraaf*/
-  font-family: "Times New Roman", Times, serif; /* lettertype*/
-  font-size: large; /* lettergrootte*/
-}
-
-/* paragraaf met breedte van 60%*/
-#paragraaf2 {
-  padding: 8px; /* ruimte rondom de inhoud van een element*/
-  color: lightskyblue; /* tekst kleur van paragraaf*/
-  background-color: whitesmoke; /* achtergrondkleur van paragraaf*/
-  font-family: "Times New Roman", Times, serif; /* lettertype*/
-  font-size: large; /* lettergrootte*/
-  width: 60%; /* breedte van paragraaf*/
-}
+  ul {
+    list-style-type: none;
+    margin: 0; /*dit zorgt ervoor dat de afstand van het menu op de header 0 is*/
+    padding: 0; /*dit zorgt ervoor dat er geen ruimte tussen het eerste blokje van het menu en de horizontal bar zit aan de linkerkant*/
+    overflow: hidden; /*geeft aan wat er moet gebeuren bij overlapping*/
+    background-color: rgb(97, 90, 90); /*achtergrond kleur voor de blokjes in de horizontal bar*/
+  } /*dit zort voor een menu*/
  
+  li {
+    float: left; /*open ruimte aan de linkerkant van het menu*/
+  }
+ 
+  li a {
+    display: block; /*bepaalt de vorm waarin het menu wordt weergeven*/
+    color: rgb(255, 255, 255); /*achtergrond kleur voor de blokjes waarin het menu te vinden is*/
+    text-align: center; /*dit geeft aan waar de text zal komen te staan, dus in het midden*/
+    padding: 27px; /*dit geeft aan hoe groot het blokje waarin zich het menu bevindt is*/
+    text-decoration: none; /*dit zorgt ervoor dat er bijvoorbeeld geen lijnen onder de tekst in het menu verschijnen*/
+  } /*deze css heeft invloed op horizontal bar*/
+ 
+  li a:hover:not(.active) {
+    background-color: #111; /*muis interactie in het menu zorgt voor een kleur verandering*/
+  }
+ 
+  .active {
+    background-color: #5ed3a4; /*achtergrond kleur voor de active fase*/
+    color: #111; /*tekst kleur voor de active*/
+  } /*bij een active pagine zullen de kleuren in het menu veranderen*/
+
+
+  .header {
+    background-color: #F1F1F1; /*achtergrond kleur voor de header*/
+    text-align: center; /*dit geeft aan waar de text zal komen te staan, dus in het midden*/
+    padding: 20px; /*dit zorgt voor de hoogte van de header*/
+  } /*dit zort voor de algemene header */
+
+
+  .paragraaf {
+    background-color: #F1F1F1; /*achtergrond kleur voor de paragraaf*/
+    text-align: center; /*dit geeft aan waar de text zal komen te staan, dus in het midden*/
+    padding: 8px; /*dit zorgt voor de hoogte van een paragraaf*/
+    font-size: 24px; /*dit element heeft invloed op de tekstgrote in een paragraaf*/
+    color: #5ed3a4; /*tekstkleur in de paragraaf*/
+
+  } /*dit zorgt voor kopjes*/
+   
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center; /*dit geeft aan waar de text zal komen te staan, dus in het midden*/
+    padding: 14px; /*dit zorgt voor de hoogte van de footer*/
+    font-size: medium; /*dit zorgt voor een tekstgrote large*/
+    background-color: #F1F1F1; /*achtergrond kleur voor de footer*/
+  }
+
+
+  #textbreedte {
+    width: 56%; /*hiermee kan je een textbreedte toevoegen*/
+  }
+
+
+/* Dropdown Button */
 .dropbtn {
-  background-color: lightblue;
-  color: whitesmoke;
-  padding: 25px;
-  font-size: 16px;
+  background-color: rgb(97, 90, 90);
+  color: white;
+  padding: 27px; /* Aangepaste paddingwaarde */
   border: none;
+  transition: background-color 0.3s; /* Voeg overgangseffect toe */
+  margin: 0;
+  font-size: large; /*dit zorgt voor een tekstgrote large*/
+  font-family: monospace; /*dit zorgt voor een monospace lettertype*/
+
 }
 
+
+/* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
+
+/* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color:lightblue;
+  background-color: rgb(222, 219, 219);
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 2;
 }
 
-dropdown-content a {
+
+/* Links inside the dropdown */
+.dropdown-content a {
   color: black;
-  padding: 25px;
+  padding: 25px; /* Aangepaste paddingwaarde */
   text-decoration: none;
   display: block;
 }
 
-.dropdown-content a:hover {              
-  background-color:lightblue;
+
+.dropdown-content a:hover {
+  background-color:  black;
   color: whitesmoke;
 }
+
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
